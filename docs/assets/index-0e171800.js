@@ -11,7 +11,7 @@
         <nav class="menu">
             <a href="#">Home</a>
             <a href="#habiliti">Skills</a>
-            <a href="#info">Briefcase</a>
+            <a href="#info">Portfolio</a>
             <a href="#contacto">Contact</a>
         </nav>    
     </div>
@@ -284,7 +284,7 @@
     </section>
 
     <section id="info">
-        <h3>BRIEFCASE</h3>
+        <h3>PORTFOLIO</h3>
             <div class="contenedor">
 
                 <div class="boton_modal">
