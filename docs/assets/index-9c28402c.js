@@ -2,7 +2,7 @@
 <header>
     <div class="contener">        
         <a href="index.html" title="Stencil">
-            <img class="visible" src="/assets/img/milogo.png" alt="logo" width="70" title="Stencil">
+            <img class="visible" src="assets/img/milogo.png" alt="logo" width="70" title="Stencil">
         </a>
         <h1 class=""></h1>
         <input type="checkbox" id="menu-bar">
@@ -19,7 +19,7 @@
 
 <main>
     <section id="banner">
-        <img src="/assets/img/hitech.jpg">
+        <img src="assets/img/hitech.jpg">
             <div class="contenedor">
                 <div class="container_text">
                     <h4 class="titule">
@@ -134,7 +134,7 @@
                 <h3>WELCOME</h3>
             </div>
             <div class="yonys">
-                <img class="yony" src="/assets/img/milogo.png">
+                <img class="yony" src="assets/img/milogo.png">
             </div>
             <div class="perfil" >
                 <h2 id="habil">PROFILE</h2> 
@@ -163,19 +163,19 @@
                            <h1 class="front">Front-End</h1>
                             <ul class="style_box">
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconFigma.png" />
+                                    <img class="img_box1" src="assets/img/iconFigma.png" />
                                     Figma
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconCss.png" />
+                                    <img class="img_box1" src="assets/img/iconCss.png" />
                                     Html
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconHtml.png" />
+                                    <img class="img_box1" src="assets/img/iconHtml.png" />
                                     Css
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconJs.png" />
+                                    <img class="img_box1" src="assets/img/iconJs.png" />
                                     Js
                                 </li>
                                                 
@@ -189,19 +189,19 @@
                             <ul class="style_box">
 
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconPhp.png" />
+                                    <img class="img_box1" src="assets/img/iconPhp.png" />
                                     PHP
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconMysql.png" />
+                                    <img class="img_box1" src="assets/img/iconMysql.png" />
                                     MySQL
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconNode.png" />
+                                    <img class="img_box1" src="assets/img/iconNode.png" />
                                     Node
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconMongo.png" />
+                                    <img class="img_box1" src="assets/img/iconMongo.png" />
                                     MongoDB
                                 </li>
                                
@@ -214,20 +214,20 @@
                         <h1 class="front">Bookstores</h1>
                             <ul class="style_box">
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconJquery.png" />
+                                    <img class="img_box1" src="assets/img/iconJquery.png" />
                                     Jquery
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconBoots.png" />
+                                    <img class="img_box1" src="assets/img/iconBoots.png" />
                                     Bootstrap
                                 </li>
                             
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconUnders.png" />
+                                    <img class="img_box1" src="assets/img/iconUnders.png" />
                                     Underscore
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconReact.png" />
+                                    <img class="img_box1" src="assets/img/iconReact.png" />
                                     React
                                 </li>                      
                             </ul>
@@ -240,20 +240,20 @@
                             <ul class="style_box">
                             
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconVite.png" />
+                                    <img class="img_box1" src="assets/img/iconVite.png" />
                                     Vite 
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconWeb.png" />
+                                    <img class="img_box1" src="assets/img/iconWeb.png" />
                                     Webpack
                                 </li>
                             
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconGit.png" />
+                                    <img class="img_box1" src="assets/img/iconGit.png" />
                                     Git-Hub
                                 </li>
                                 <li>
-                                    <img class="img_box1" src="/assets/img/iconVs.png" />
+                                    <img class="img_box1" src="assets/img/iconVs.png" />
                                     VSCode
                                 </li>                      
                             </ul>
