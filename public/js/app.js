@@ -103,7 +103,7 @@ form.addEventListener('submit', (e) =>{
         document.getElementById('form_great').classList.add('form_great_active');
         setTimeout(() => {
             document.getElementById('form_great').classList.remove('form_great_active');
-        }, 2000);
+        }, 5000);
 
         document.querySelectorAll('.group_form_correct').forEach((icono) => {
             icono.classList.remove('group_form_correct');

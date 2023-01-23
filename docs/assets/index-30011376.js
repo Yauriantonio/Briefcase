@@ -583,14 +583,14 @@
             </div>
 
             <div class="social">
-                <a class="link" href="#">
+                <a class="link" href="https://www.linkedin.com/in/antonio-aguirre-357324245">
                 <i class="fa-brands fa-linkedin"></i>
                     <h4>LinkedIn</h4>
                 </a>
             </div>
 
             <div class="social">
-                <a class="wats" href="#">
+                <a class="wats" href="https://wa.me/525633689804?text=Hola">
                 <i class="fa-brands fa-whatsapp"></i>
                     <h4>Watsapp</h4>
                 </a>
