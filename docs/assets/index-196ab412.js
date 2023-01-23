@@ -100,12 +100,12 @@
                                 <div class="messages">
                                     <div class="form_message" id="form_message">
                                         <p><i class="fas fa-exclamation-triangle"></i> 
-                                            <b>Error: </b>Complete the form correctly!
+                                            <b>Error: </b>Please complete the form!
                                         </p>
                                     </div>
 
                                     <div class="form_great" id="form_great">
-                                        <p><b>Great! Thank You So Much!</b></p>
+                                        <p><b>Thank You Very Much!</b></p>
                                     </div>
                                 </div>
                             </div> 
@@ -137,7 +137,7 @@
                 <img class="yony" src="assets/img/milogo.png">
             </div>
             <div class="perfil" >
-                <h2 id="habil">PROFILE</h2> 
+                <h2 class="habil">PROFILE</h2> 
                     <p > I'm a self-taught young man passionate about technology 
                     who is always constantly updated with the newest and best technologies 
                     available to develop websites, that meet the needs of users and 

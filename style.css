@@ -240,14 +240,14 @@ header label{
 /*boton y contenedores*/
 #banner .contenedor{
   position: absolute;
-  top: 14%;
+  top: 18%;
   left: 33%;
   transform: translateX(-50%) translateY(-50%);
   color:#fff;
 }
 #banner .contain_btn_msj{
   position: absolute;
-  top: 18%;
+  top: 23%;
   left: 10%;
   transform: translateX(-50%) translateY(-50%);
   color:#fff;
@@ -446,6 +446,18 @@ header label{
 @media screen and (max-width:800px) {
   .content_msn{
       width: 90%;
+   
+  }
+ 
+}
+@media screen and (max-width:320px) {
+  .content_msn{
+      width: 90%;
+      height: 95%;
+      padding: 10px;
+  }
+  .content_msn h3{
+    font-size: 30px;
   }
 }
 
@@ -694,13 +706,20 @@ header label{
       width: 70%;
     }
 }
-
+@media screen and  (max-width: 320px){
+  .form_message{
+    font-size: 15px;
+    width: 83%;
+  }  
+  .form_great{
+    font-size: 15px;
+    width: 83%;
+  }
+}
 
 
 .yonys {
-  margin: 10px 0px;
-  height: 200px;
-  width: 350px;
+  justify-content: center;
   position: relative;
   float: right;
   display: flex; 
@@ -716,32 +735,36 @@ header label{
 }
 @keyframes yonyMove {
   0%{
-    transform: translateY(0);
+    transform: translateY(10%);
   }
   100%{
     transform:  translateY(25%);
-    
 }
 }
-
 .yony{
   height: 220px;
   width: 400px;
-  padding: 15px;
+  padding: 2px;
+}
+
+@media (max-width:480px){
+
+  .yony{
+    height: 170px;
+    width: 300px;
+    padding: 2px;
+  }
+}
+@media (max-width:870px){
+  .yonys {
+    width: 100%;
+    margin:0px 0px 80px 0px;
+  }
 }
 .perfil{
   margin: auto;
   padding: auto;
 }
-@media (max-width:450px){
-  .yony{ 
-    height: 120px;
-    width: 300px;
-    margin: 0px 80px;
-  }
-  
-  
-  }
 
 #bienvenidos{
   box-shadow: 0 0 20px 1px #ccc;
@@ -749,7 +772,6 @@ header label{
   padding: 20px;
   /* margin-top: 50px; */
   font-family: 'Rajdhani', sans-serif;
-
 }
 #bienvenidos .welcome{
   margin: auto;
@@ -764,7 +786,6 @@ header label{
   position: relative; 
   float: left;
 }
-
 #bienvenidos h2{
   text-align: center;
   margin-top: 18px;
@@ -831,7 +852,6 @@ header label{
       padding: 0px 40px 40px;
   }
 }
-
 .caja:nth-child(1) h1{
   
   text-align: center;
@@ -981,18 +1001,14 @@ img:hover {
   animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out; 
 }
-
 @keyframes colorGradient {
-
   0%{
     filter: drop-shadow( 3px 0px 30px rgba(163,163,163, .9))
-      
   }
   100%{
     filter: drop-shadow( 3px 0px 30px rgba(163, 163, 163, 0))
   }
 }
-
 #blog img:hover{
   /* filter: drop-shadow( 3px 0px 30px rgba(163,163,163, .9)) */
   /* transform: translate(2px); */
@@ -1009,8 +1025,6 @@ img:hover {
   }
 } */
 
-
-
 #info{
   box-shadow: 0 0 20px 1px #ccc;
   background: rgba(51,51,51,0.9);
@@ -1019,13 +1033,11 @@ img:hover {
   padding: 40px;
   font-family: 'Rajdhani', sans-serif;
 }
-
-
-
 #info .contenedor{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
+  margin: 10px;
 }
 #info h4{
   text-align: center;
@@ -1034,7 +1046,7 @@ img:hover {
   font-size: 20px; 
 }
 .info{
-  margin: 10px; 
+  margin: 20px; 
 }
 .info img{
   width:100px;
@@ -1049,10 +1061,13 @@ img:hover {
   box-shadow: 5px 5px 20px rgba(163,163,163, 1);
   transform: translate(-3%);
 }
-
 .info a{
   text-decoration: none;
-  
+}
+@media (max-width:600px){
+  .info{
+    margin:20px 40px; 
+  }
 }
 @media (min-width:720px){
   .info{
@@ -1306,7 +1321,7 @@ img:hover {
   cursor: pointer;
   transition: all 300ms ease;
   border: 1px solid #ccc;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 .content_modal .btn_close label:hover{
   box-shadow: 0 0 20px 1px #ccc;
@@ -1324,13 +1339,18 @@ img:hover {
       width: 90%;
   }
 }
-
+@media screen and (max-width:320px) {
+.content_modal img{
+  height: 110px;
+  width:250px;
+}
+}
 
 footer .contenedor{
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;/*centrado*/
-  padding-bottom: 50px; /*espaciado*/ 
+  padding-bottom: 30px; /*espaciado*/ 
   font-family: 'Rajdhani', sans-serif;
 }
 .contenedor h3{
@@ -1342,11 +1362,9 @@ footer .contenedor{
 .sociales{
  display: flex;
  justify-content: center;
- /* padding:50px 0px 0px; */
  width: 100%;
  text-align: center;
- font-size: 30px;
- padding: 60px 30px 0px;
+ padding: 30px 0px 0px;
  justify-content: space-evenly;/*centrado*/
  bottom: 100px;
  left: 20px;
@@ -1354,21 +1372,16 @@ footer .contenedor{
 }
 .sociales .social{
   padding:50px 0px 0px;
-  /* box-shadow: 0 0 20px 1px #ccc; */
 }
 .sociales .social a{
   color: #888;
   text-decoration: none;
   font-size: 40px;
-  margin: 5px;
   background: rgba(255, 255, 255, 0);
+  transition:all 0.2s ease-in-out ;
 }
-
 .sociales .social :hover{
-  transform: translate(-3%);
   color:#fff;
-  /* transition:all 0.1s ease-in-out ;  */
-  
 }
 .sociales h4{
   color: #fff;
@@ -1377,11 +1390,6 @@ footer .contenedor{
   padding:0px 20px;
   margin: 0px 12px;
   font-family: 'Rajdhani', sans-serif;
-}
-@media (min-width:768px){
-  .sociales{
-      font-size: 20px;   
-  }
 }
 /* Boton subir */
 .btn_subir{
@@ -1406,8 +1414,6 @@ footer .contenedor{
   display: none;
   border-radius: 50%;
 } 
-
-
 .btn_subir .subir:hover{
   box-shadow: 0 0 20px 1px #ccc;
   transition: all 0.2s;
