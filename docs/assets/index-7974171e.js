@@ -1,4 +1,4 @@
-(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))e(s);new MutationObserver(s=>{for(const a of s)if(a.type==="childList")for(const l of a.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&e(l)}).observe(document,{childList:!0,subtree:!0});function o(s){const a={};return s.integrity&&(a.integrity=s.integrity),s.referrerpolicy&&(a.referrerPolicy=s.referrerpolicy),s.crossorigin==="use-credentials"?a.credentials="include":s.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function e(s){if(s.ep)return;s.ep=!0;const a=o(s);fetch(s.href,a)}})();document.querySelector("#app").innerHTML=`
+(function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))e(s);new MutationObserver(s=>{for(const i of s)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&e(l)}).observe(document,{childList:!0,subtree:!0});function o(s){const i={};return s.integrity&&(i.integrity=s.integrity),s.referrerpolicy&&(i.referrerPolicy=s.referrerpolicy),s.crossorigin==="use-credentials"?i.credentials="include":s.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function e(s){if(s.ep)return;s.ep=!0;const i=o(s);fetch(s.href,i)}})();document.querySelector("#app").innerHTML=`
 <header>
     <div class="contener">        
         <a href="index.html" title="Stencil">
@@ -290,8 +290,8 @@
                 <div class="boton_modal">
                     <label for="btn_modal">
                         <div class="info"> 
-                                <img src="assets/img/undrawTime.png">
-                                    <h4>QatarTime</h4>
+                                <img src="assets/img/undrawTask.png">
+                                    <h4>Todo-App</h4>
                         </div>
                     </label>
                 </div>
@@ -299,19 +299,23 @@
                 <input type="checkbox" id="btn_modal">
                 <div class="container_modal">
                     <div class="content_modal">
-                        <h2>Qatar-App</h2>
+                        <h2>Todo-App</h2>
                         <div class="img_app">
-                            <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                            <a href="https://yauriantonio.github.io/task-list/">
+                                <img src="assets/img/Imagen1.png" > 
                             </a>
                         </div>
-                        <p>Aplicación que muestra la hora en Qatar</p>
+                        <p>Register tasks to do, mark them and delete them.</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="https://github.com/Yauriantonio/task-list">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="https://yauriantonio.github.io/task-list/">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modal">Close</label>
@@ -325,28 +329,31 @@
                 <div class="boton_modal">
                     <label for="btn_modall">
                         <div class="info"> 
-                                <img src="assets/img/undrawLove1.png">
-                                    <h4>Love</h4>
+                                <img src="assets/img/undrawCalculator.png">
+                                    <h4>Calculator</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modall">
                 <div class="container_modall">
                     <div class="content_modal">
-                        <h2>Crush-App</h2>
+                        <h2>Calculator</h2>
                         <div class="img_app">
-                            <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                            <a href="https://yauriantonio.github.io/calculator/">
+                                <img src="assets/img/Imagen2.png" > 
                             </a>
                         </div>
-                        <p>Aplicación que hará que tú crush
-                        se enamore de tí.</p>
+                        <p>Do your math operations and have fun.</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="https://github.com/Yauriantonio/calculator">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="https://yauriantonio.github.io/calculator/">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modall">Close</label>
@@ -359,27 +366,31 @@
                 <div class="boton_modal">
                     <label for="btn_modala">
                         <div class="info"> 
-                                <img src="assets/img/undrawCalculator.png">
-                                    <h4>Calculator</h4>
+                                <img src="assets/img/undrawPoke.png">
+                                    <h4>Pokedesk</h4>
                         </div>
                     </label>
                 </div>
                 <input type="checkbox" id="btn_modala">
                 <div class="container_modala">
                     <div class="content_modal">
-                        <h2>Calcula-App</h2>
+                        <h2>Pokedesk</h2>
                         <div class="img_app">
-                            <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                            <a href="https://yauriantonio.github.io/pokedesk/">
+                                <img src="assets/img/Imagen3.png" > 
                             </a>
                         </div>
-                        <p>Aplicación que realiza operaciones matemáticas.</p>
+                        <p>Search your favorite pokemons by name or id.</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="https://github.com/Yauriantonio/pokedesk">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="https://yauriantonio.github.io/pokedesk/">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modala">Close</label>
@@ -392,27 +403,31 @@
                 <div class="boton_modal">
                     <label for="btn_modale">
                         <div class="info"> 
-                                <img src="assets/img/undrawTask.png">
-                                    <h4>Todo-App</h4>
+                                <img src="assets/img/undrawPets.png">
+                                    <h4>Pets</h4>
                         </div>
                     </label>
                 </div> 
                 <input type="checkbox" id="btn_modale">
                 <div class="container_modale">
                     <div class="content_modal">
-                        <h2>Todo-App</h2>
+                        <h2>Pets</h2>
                         <div class="img_app">
                             <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                                <img src="assets/img/hitech.jpg" > 
                             </a>
                         </div>
-                        <p>Aplicación de tareas por realizar.</p>
+                        <p>Loading...</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="#">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="#">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modale">Close</label>
@@ -428,27 +443,31 @@
                 <div class="boton_modal">
                     <label for="btn_modali">
                         <div class="info"> 
-                                <img src="assets/img/undrawPoke.png">
-                                    <h4>Pokedex</h4>
+                                <img src="assets/img/undrawList.png">
+                                    <h4>Homework</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modali">
                 <div class="container_modali">
                     <div class="content_modal">
-                        <h2>Poke-App</h2>
+                        <h2>Homework</h2>
                         <div class="img_app">
                             <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                                <img src="assets/img/hitech.jpg" > 
                             </a>
                         </div>
-                        <p>Aplicación que muestra las habilidades de los Pokemones.</p>
+                        <p>Loading...</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="#">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="#">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modali">Close</label>
@@ -472,16 +491,20 @@
                         <h2>Dano-App</h2>
                         <div class="img_app">
                             <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                                <img src="assets/img/hitech.jpg" > 
                             </a>
                         </div>
-                        <p>Aplicación muestra de Danone.</p>
+                        <p>Loading...</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="#">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="#">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modalo">Close</label>
@@ -506,16 +529,20 @@
                         <h2>Baraja-App</h2>
                         <div class="img_app">
                             <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                                <img src="assets/img/hitech.jpg" > 
                             </a>
                         </div>
-                        <p>Aplicación para jugar 21.</p>
+                        <p>Loading...</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="#">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="#">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modalu">Close</label>
@@ -528,27 +555,31 @@
                 <div class="boton_modal">
                     <label for="btn_modalz">
                         <div class="info"> 
-                                <img src="assets/img/undrawList.png">
-                                    <h4>Homework</h4>
+                                <img src="assets/img/undrawTime.png">
+                                    <h4>Store</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modalz">
                 <div class="container_modalz">
                     <div class="content_modal">
-                        <h2>Tarea-App</h2>
+                        <h2>Store</h2>
                         <div class="img_app">
                             <a href="#">
-                                <img src="assets/img/ajax-5.png" > 
+                                <img src="assets/img/hitech.jpg" > 
                             </a>
                         </div>
-                        <p>Aplicación para realizar tareas.</p>
+                        <p>Loading...</p>
                         <div class="contenido">
                             <div class="git">
-                                <a class="fa-brands fa-github" href="#"></a>
+                                <a href="#">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
                             </div>
                             <div class="btn_visit">
-                                <label class="visit"for="">Visit</label>
+                                <a href="#">
+                                    <label class="visit"for="">Visit</label>
+                                </a>
                             </div>
                             <div class="btn_close">
                                 <label for="btn_modalz">Close</label>
