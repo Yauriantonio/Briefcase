@@ -1257,7 +1257,7 @@ img:hover {
   flex-wrap: wrap;
 }
 .content_modal img{
-  height: 130px;
+  height: 160px;
   width:300px;
   border-radius:10px;
   border: 1px solid #ccc;
@@ -1273,15 +1273,17 @@ img:hover {
   justify-content: space-around;
 }
 .content_modal .git{
-  font-size: 35px;
+  font-size: 40px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 0px;
   display: flex;
   justify-content: first baseline; 
+  
 }
 .content_modal .git a{
   color: #888;
   text-decoration: none;
+  margin: -10px 0px -13px;
 }
 .content_modal .git a:hover{
   color:#fff;
@@ -1289,12 +1291,12 @@ img:hover {
 }
 .content_modal .btn_visit{
   width: 100%;
-  margin-top: 15px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
 }
 .content_modal .btn_visit label{
-  padding: 5px 25px;
+  padding: 5px 45px;
   background-color: #222;
   color: #fff;
   border-radius: 5px;
@@ -1309,7 +1311,8 @@ img:hover {
 }
 .content_modal .btn_close{
   width: 100%;
-  margin-top: 15px;
+  height: 35px;
+  margin-top: 0px;
   display: flex;
   justify-content: end;
 }
@@ -1341,8 +1344,8 @@ img:hover {
 }
 @media screen and (max-width:320px) {
 .content_modal img{
-  height: 110px;
-  width:250px;
+  height: 120px;
+  width:230px;
 }
 }
 
