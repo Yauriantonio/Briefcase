@@ -215,7 +215,7 @@ document.querySelector('#app').innerHTML = `
 
                     <div class="caja">
                         <li> 
-                        <h1 class="front">Bookstores</h1>
+                        <h1 class="front">Librarys</h1>
                             <ul class="style_box">
                                 <li>
                                     <img class="img_box1" src="assets/img/iconJquery.png" />
@@ -407,29 +407,29 @@ document.querySelector('#app').innerHTML = `
                 <div class="boton_modal">
                     <label for="btn_modale">
                         <div class="info"> 
-                                <img src="assets/img/undrawPets.png">
-                                    <h4>Pets</h4>
+                                <img src="assets/img/undrawList.png">
+                                    <h4>Tasks</h4>
                         </div>
                     </label>
                 </div> 
                 <input type="checkbox" id="btn_modale">
                 <div class="container_modale">
                     <div class="content_modal">
-                        <h2>Pets</h2>
+                        <h2>Tasks</h2>
                         <div class="img_app">
-                            <a href="#">
-                                <img src="assets/img/hitech.jpg" > 
+                            <a href="https://yauriantonio.github.io/tasks/">
+                                <img src="assets/img/ImgTasks.png" > 
                             </a>
                         </div>
-                        <p>Loading...</p>
+                        <p>Add, select, delete and save your tasks to be done. </p>
                         <div class="contenido">
                             <div class="git">
-                                <a href="#">
+                                <a href="https://github.com/Yauriantonio/tasks">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                             <div class="btn_visit">
-                                <a href="#">
+                                <a href="https://yauriantonio.github.io/tasks/">
                                     <label class="visit"for="">Visit</label>
                                 </a>
                             </div>
@@ -447,15 +447,15 @@ document.querySelector('#app').innerHTML = `
                 <div class="boton_modal">
                     <label for="btn_modali">
                         <div class="info"> 
-                                <img src="assets/img/undrawList.png">
-                                    <h4>Homework</h4>
+                                <img src="assets/img/undrawGame.png">
+                                    <h4>Game-21</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modali">
                 <div class="container_modali">
                     <div class="content_modal">
-                        <h2>Homework</h2>
+                        <h2>Game-21</h2>
                         <div class="img_app">
                             <a href="#">
                                 <img src="assets/img/hitech.jpg" > 
@@ -484,15 +484,15 @@ document.querySelector('#app').innerHTML = `
                 <div class="boton_modal">
                     <label for="btn_modalo">
                         <div class="info"> 
-                            <img src="assets/img/undrawDanone.png">
-                                <h4>Danone</h4>
+                            <img src="assets/img/undrawDino.png">
+                                <h4>Crud</h4>
                         </div>
                     </label>
                 </div>
                 <input type="checkbox" id="btn_modalo">
                 <div class="container_modalo">
                     <div class="content_modal">
-                        <h2>Dano-App</h2>
+                        <h2>Crud</h2>
                         <div class="img_app">
                             <a href="#">
                                 <img src="assets/img/hitech.jpg" > 
@@ -522,15 +522,15 @@ document.querySelector('#app').innerHTML = `
                 <div class="boton_modal">
                     <label for="btn_modalu">
                         <div class="info"> 
-                                <img src="assets/img/undrawGame.png">
-                                    <h4>Game21</h4>
+                                <img src="assets/img/undrawDanone.png">
+                                    <h4>Danone</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modalu">
                 <div class="container_modalu">
                     <div class="content_modal">
-                        <h2>Baraja-App</h2>
+                        <h2>Danone</h2>
                         <div class="img_app">
                             <a href="#">
                                 <img src="assets/img/hitech.jpg" > 
