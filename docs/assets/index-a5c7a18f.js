@@ -444,28 +444,28 @@
                     <label for="btn_modali">
                         <div class="info"> 
                                 <img src="assets/img/undrawGame.png">
-                                    <h4>Game-21</h4>
+                                    <h4>BlackJack</h4>
                         </div>
                     </label>
                 </div>           
                 <input type="checkbox" id="btn_modali">
                 <div class="container_modali">
                     <div class="content_modal">
-                        <h2>Game-21</h2>
+                        <h2>BlackJack</h2>
                         <div class="img_app">
-                            <a href="#">
-                                <img src="assets/img/hitech.jpg" > 
+                            <a href="https://yauriantonio.github.io/blackjack/">
+                                <img src="assets/img/ImgBlack.png" > 
                             </a>
                         </div>
-                        <p>Loading...</p>
+                        <p>Play blackjack, the first to match the number 21 wins.</p>
                         <div class="contenido">
                             <div class="git">
-                                <a href="#">
+                                <a href="https://github.com/Yauriantonio/blackjack">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                             <div class="btn_visit">
-                                <a href="#">
+                                <a href="https://yauriantonio.github.io/blackjack/">
                                     <label class="visit"for="">Visit</label>
                                 </a>
                             </div>
